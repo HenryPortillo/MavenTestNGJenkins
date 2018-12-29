@@ -10,6 +10,9 @@ public class BaseClass {
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.com/");
+		
+		
 		
 	}
 
